@@ -24,6 +24,8 @@ public class Main {
         LocalDate oneYearDate = LocalDate.of(1978, 5, 25);
         LocalDate currentDate = LocalDate.of(1977, 5, 26);
         System.out.println("Premiere day was "+premiereStarWars.getDayOfWeek());
+//        System.out.println("1 january 1978 was  "+LocalDate.of(1978, 1,1).getDayOfWeek());
+//        System.out.println("1 january 1979 was "+LocalDate.of(1979, 1,1).getDayOfWeek());
         double i=1;
         while (!currentDate.isAfter(twoYearsDate))
         {
@@ -43,28 +45,32 @@ public class Main {
         }
         int s=(int) i;
         System.out.println("In 2 year film played "+s+ " times");
-
-//        System.out.println("Bonus Part");
-//        currentDate = LocalDate.of(1977, 5, 26);
-//        i=1;
-//        while (!currentDate.isAfter(twoYearsDate))
-//        {
-//            if((currentDate.getDayOfWeek().equals(DayOfWeek.SUNDAY ) && (currentDate.getMonth()==Month.JANUARY && currentDate.getDayOfMonth()!=1)||currentDate.getDayOfWeek().equals(DayOfWeek.SATURDAY)||(currentDate.getMonth()==Month.FEBRUARY && currentDate.getDayOfMonth()==29))
-//            {
-//                i++;
-//            }
-//            if(currentDate.equals(oneYearDate))
-//            {
-//                double d=i*120/60/24;
-//                System.out.println("In first year film played:");
-//                System.out.println((int) i*120+" minutes or");
-//                System.out.println((int) i*120/60+" hours, or");
-//                System.out.println(d+" days");
-//            }
-//            currentDate=currentDate.plusDays(1);
-//        }
-//        int s=(int) i;
-//        System.out.println("In 2 year film played "+s+ " times");
+        System.out.println();
+        System.out.println("Bonus Part");
+        currentDate = LocalDate.of(1977, 5, 26);
+        i=1;
+        while (!currentDate.isAfter(twoYearsDate))
+        {
+            if(currentDate.getDayOfWeek().equals(DayOfWeek.SUNDAY ) ||currentDate.getDayOfWeek().equals(DayOfWeek.SATURDAY)||(currentDate.getMonth()==Month.FEBRUARY && currentDate.getDayOfMonth()==29))
+            {
+                if(currentDate.getMonth()==Month.JANUARY&&currentDate.getDayOfMonth()==1)
+                {
+                }
+                else
+                i++;
+            }
+            if(currentDate.equals(oneYearDate))
+            {
+                double d=i*120/60/24;
+                System.out.println("In first year film played:");
+                System.out.println((int) i*120+" minutes or");
+                System.out.println((int) i*120/60+" hours, or");
+                System.out.println(d+" days");
+            }
+            currentDate=currentDate.plusDays(1);
+        }
+        s=(int) i;
+        System.out.println("In 2 year film played "+s+ " times");
 
     }
 }

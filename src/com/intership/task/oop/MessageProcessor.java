@@ -2,6 +2,14 @@ package com.intership.task.oop;
 
 public class MessageProcessor {
 
+    public void messageProcessor(XmlMessage s)
+    {
+        s.prepareMessage();
+    }
+    public void messageProcessor(JsonMessage s)
+    {
+        s.prepareMessage();
+    }
     public void convertMessage(Object s, String s1) {
         switch (s1) {
             case ("XML"):

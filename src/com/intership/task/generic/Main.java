@@ -19,7 +19,9 @@ public class Main {
         footballLeague.addTeamToLeague(Barca);
         footballLeague.addTeamToLeague(Liverpool);
         footballLeague.displayLeague(); //display all teams from football league
+
         System.out.println();
+
         Sport Hockey = new Sport("Hockey"); //The same for hockey
         Hockey CB =new Hockey("Chicago Bulls");
         Hockey CSKA =new Hockey("CSKA");

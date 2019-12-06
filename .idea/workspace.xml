@@ -4,7 +4,16 @@
 
     <list default="true" id="6d7c5325-888d-4a0c-8d8b-1282b9968a7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/intership/task/daytime/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/intership/task/daytime/Main.java" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/src/com/intership/task/inoutput/file data input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/intership/task/inoutput/file data input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/intership/task/inoutput/file data output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/intership/task/inoutput/file data output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/intership/task/inoutput/file data output1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/intership/task/inoutput/file data output1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/intership/task/inoutput/file data output2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/intership/task/inoutput/file data output2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/intership/task/inoutput/file data output3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/intership/task/inoutput/file data output3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/intership/task/inoutput/file data output4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/intership/task/inoutput/file data output4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/intership/task/inoutput/input int.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/intership/task/inoutput/input int.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/intership/task/inoutput/input int1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/intership/task/inoutput/input int1.txt" afterDir="false" />
+
     </list>
 
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +40,7 @@
   <component name="ProjectId" id="1TbLMtxmZynBtu0fP6wEuxIKUiI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java collections task" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,7 +55,7 @@
     </option>
   </component>
 
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (2)">
 
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.intership.task.oop.Main" />
@@ -116,7 +125,9 @@
     <recent_temporary>
       <list>
 
-        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (3)" />
+
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />

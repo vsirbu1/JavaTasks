@@ -113,6 +113,30 @@ public class CharList {
         CharList list=new CharList(container);
         return list;
     }
+    boolean isPalindrome() {
+        int length = length();
+        int forward = 0;
+        int backward = length - 1;
+        while (backward > forward) {
+            char forwardChar = charAt(forward++);
+            char backwardChar = charAt(backward--);
+            if (forwardChar != backwardChar)
+                return false;
+        }
+        return true;
+    }
+    CharList toLower()
+    {
+        String s =container.toString().toLowerCase();
+        CharList list = new CharList(s);
+        return list;
+    }
+    CharList toUpper()
+    {
+        String s =container.toString().toUpperCase();
+        CharList list = new CharList(s);
+        return list;
+    }
 
 }
 
